@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  height: 60px;
+  background-color: rgb(255, 85, 85);
+  color: white;
+  font-size: large;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+.content--inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.vrank{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  gap: 15px;
+  width:auto;
+  margin: 10px;
+  overflow: hidden;
+  cursor:pointer;
+}
+
+
+.vrankloading{
+  gap: 15px;
+  width:auto;
+  margin: 10px;
+  cursor:progress;
+}
+
