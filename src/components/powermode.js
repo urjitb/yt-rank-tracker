@@ -1,9 +1,8 @@
-import { Title, TextInput, MultiSelect, Button, Container, Popover, Text, Skeleton, Paper, Group, useMantineTheme, MantineTheme } from '@mantine/core';
-import { useState, useEffect } from 'react';
+import { Container, Text, Skeleton, Paper, Group, useMantineTheme } from '@mantine/core';
+import { useState } from 'react';
 import VideoRank from './VideoRank';
-import { ClearAll, Refresh, AlertTriangle } from 'tabler-icons-react';
-import { Upload, Photo, X, Icon as TablerIcon } from 'tabler-icons-react';
-import { Dropzone, DropzoneStatus, MIME_TYPES } from '@mantine/dropzone';
+
+import { Dropzone, MIME_TYPES } from '@mantine/dropzone';
 
 function getIconColor(status, theme) {
     return status.accepted
